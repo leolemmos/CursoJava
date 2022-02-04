@@ -1,0 +1,22 @@
+package aula03;
+
+public class Exercicio02 {
+	//EXERCÍCIO 02- OPERADORES ARITIMÉTICOS
+    /*
+     * ADIÇÃO +         Exemplo: 10 + 5     Resultado= 15
+     * SUBTRAÇÃO -      Exemplo: 10 - 5     Resultado=  5
+     * MULTIPLICAÇÃO *  Exemplo: 10 * 5     Resultado= 50
+     * DIVISÃO /        Exemplo: 10 / 5     Resultado=  2
+     * RESTO %          Exemplo: 5 %  2     Resultado=  1
+     */			
+	public static void main(String[] args) {
+				// SUBTRAÇÃO
+		
+				double valor1 = 100;
+				double valor2 = 35;
+				double total = valor1 - valor2;
+				
+				System.out.print("A diferença de "+valor1+" menos "+valor2+" é "+total);
+	}
+
+}
