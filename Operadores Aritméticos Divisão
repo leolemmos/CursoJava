@@ -1,0 +1,27 @@
+package aula03;
+
+public class Exercicio04 {
+	//EXERCÍCIO 04- OPERADORES ARITIMÉTICOS
+	   
+	/*
+	 * ADIÇÃO +         Exemplo: 10 + 5     Resultado= 15
+	 * SUBTRAÇÃO -      Exemplo: 10 - 5     Resultado=  5
+	 * MULTIPLICAÇÃO *  Exemplo: 10 * 5     Resultado= 50
+	 * DIVISÃO /        Exemplo: 10 / 5     Resultado=  2
+	 * RESTO %          Exemplo: 5 %  2     Resultado=  1
+	 */				
+
+	public static void main(String[] args) {
+		// DIVISÃO e RESTO
+		
+		double dividendo = 5;
+		double divisor = 2;
+		double quociente = dividendo / divisor;
+		double resto = dividendo % divisor;
+				
+		System.out.println("A divisão de "+dividendo+" pelo "+divisor+" é "+quociente);
+		System.out.println("E o resto é "+resto);
+			
+	}
+
+}
