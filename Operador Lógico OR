@@ -1,0 +1,20 @@
+package aula06;
+
+public class Exercicio02 {
+
+	public static void main(String[] args) {
+		//DECLARAÇÃO DE VARIÁVEIS
+		String profissao1 = "java";
+		String profissao2 = "excel";
+		
+		
+		//ESTRUTURA DE DECISÃO
+		if(profissao1 == "java" || profissao2 =="php" )  {
+			System.out.print("Acesso Liberado");
+		} else {
+			System.out.print("Acesso Negado");
+		}
+
+	}
+
+}
