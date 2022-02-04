@@ -8,8 +8,7 @@ package aula01;
 		
 		System.out.println("Olá Mundo!");
 		System.out.println("Meu nome é Leonardo");
-	
-		
+			
 		//Dica: Digite syso e pressione CTRL + SPACE .
 		
 	}
