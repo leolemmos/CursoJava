@@ -1,0 +1,24 @@
+package aula03;
+
+public class Exercicio03 {
+	//EXERCÍCIO 02- OPERADORES ARITIMÉTICOS
+   
+	/*
+     * ADIÇÃO +         Exemplo: 10 + 5     Resultado= 15
+     * SUBTRAÇÃO -      Exemplo: 10 - 5     Resultado=  5
+     * MULTIPLICAÇÃO *  Exemplo: 10 * 5     Resultado= 50
+     * DIVISÃO /        Exemplo: 10 / 5     Resultado=  2
+     * RESTO %          Exemplo: 5 %  2     Resultado=  1
+     */			
+	public static void main(String[] args) {
+		// MULTIPLICAÇÃO
+		
+		double multiplicando = 10;
+		double multiplicador = 8;
+		double  produto = multiplicando * multiplicador;
+		
+		System.out.print("A multiplicação de "+multiplicando+" vezes "+multiplicador+" é "+produto);
+
+	}
+
+}
