@@ -1,0 +1,27 @@
+package aula03;
+
+public class Exercicio05 {
+	//EXERCÍCIO 05 - ATIVIDADE BOLETIM ESCOLAR
+	public static void main(String[] args) {
+		
+		//DECLARAÇÃO DE VARIÁVEIS
+		String aluno = "Leonardo Lemos";
+		double nota1 = 7.5;
+		double nota2 = 9.5;
+		double nota3 = 6.5;
+		double nota4 = 8.0;
+		double media = (nota1 + nota2 + nota3 + nota4)/4;
+		
+		System.out.println("-------------------- BOLETIM ESCOLAR ---------------------");
+		System.out.println("Aluno:" +aluno);
+		System.out.println("Nota 1= " +nota1);
+		System.out.println("Nota 2= " +nota2);
+		System.out.println("Nota 3= " +nota3);
+		System.out.println("Nota 4= " +nota4);
+		System.out.println("----------------------------------------------------------");
+		System.out.println("Média Final:" +media);
+		System.out.println("----------------------------------------------------------");
+		
+	}
+
+}
