@@ -1,0 +1,26 @@
+package aula04;
+
+
+import java.util.Scanner; //IMPORTANDO O SCANNER
+
+public class Exercicio01 {
+		//EXERCICIO 01- UTILIZANDO O SCANNER
+	
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		//DECLARANDO AS VARIÁVEIS
+		String nome;
+		
+		//IMPRESSÃO NA TELA
+		System.out.println("Digite o seu nome:");
+		nome = teclado.nextLine(); //ENTRANDO A INFORMAÇÃO NA VARIÁVEL TIPO TEXTO
+		
+		//IMPRESSÃO NA TELA DO CONTEÚDO DA VARIÁVEL
+		System.out.print("Seu nome é "+nome);
+				
+		teclado.close(); //DESLIGANDO A ENTRADA DE DADOS
+						
+	}
+
+}
