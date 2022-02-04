@@ -1,0 +1,19 @@
+package aula06;
+
+public class Exercicio01 {
+
+	public static void main(String[] args) {
+				//DECLARAÇÃO DE VARIÁVEIS
+				String login = "leo";
+				String senha = "124";
+				
+				
+				//ESTRUTURA DE DECISÃO
+				if(login == "leo" && senha =="123" )  {
+					System.out.print("Acesso Liberado");
+				} else {
+					System.out.print("Acesso Negado");
+				}
+	}
+
+}
