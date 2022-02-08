@@ -6,6 +6,7 @@ public class Exercicio02 {
 		// TABUADA DE MULTIPLICAÇÃO
 
 	public static void main(String[] args) {
+		
 		Scanner teclado = new Scanner(System.in);
 		int valor;
 		
